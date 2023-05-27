@@ -1,0 +1,24 @@
+button {
+        margin: 15px;
+        padding: 12px;
+        border-radius: 1rem;
+      }
+      
+      button:hover {
+        background-color: #c7e9b0;
+      }
+      button:focus {
+        background-color: #0b2447;
+        color: #b3e5be;
+      }
+      
+      .nav_section {
+        border-radius: .2rem;
+        background: rgb(251, 218, 215);
+        background: linear-gradient(
+          139deg,
+          rgba(251, 218, 215, 1) 20%,
+          rgba(0, 57, 255, 1) 100%
+        );
+      }
+      

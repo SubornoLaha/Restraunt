@@ -1,0 +1,51 @@
+.items {
+        width: 100%;
+        display: grid;
+        place-items: center;
+      }
+      .tittle > h4 {
+        color: #999;
+      }
+      .container {
+        margin-top: 0.3rem;
+        display: grid;
+        grid-template-columns: repeat(3, 260px);
+        place-items: center;
+        gap: 1rem;
+        padding: 1rem;
+      }
+      .card {
+        background-color: #f6f1f1;
+        width: 250px;
+        border-radius: 0.5rem;
+        padding: 0.1rem;
+      }
+      
+      .tittle {
+        margin-top: 0.5rem;
+        font-size: 800;
+        font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+          "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+      }
+      
+      img {
+        width: 200px;
+        height: 150px;
+        border: 5px solid #212a3e;
+        padding: 0.2rem;
+      }
+      
+      img:hover {
+        scale: 1.1;
+        transition: 1s;
+        margin-bottom: 8px;
+        margin-top: 8px;
+      }
+      
+      @media screen and (max-width: 480px) {
+        .container {
+          display: grid;
+          grid-template-columns: repeat(2, 260px);
+        }
+      }
+      
