@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Restraunt/static/css/main.475bb449.css",
+    "main.js": "/Restraunt/static/js/main.34bf98bf.js",
+    "index.html": "/Restraunt/index.html",
+    "main.475bb449.css.map": "/Restraunt/static/css/main.475bb449.css.map",
+    "main.34bf98bf.js.map": "/Restraunt/static/js/main.34bf98bf.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.475bb449.css",
+    "static/js/main.34bf98bf.js"
+  ]
+}
